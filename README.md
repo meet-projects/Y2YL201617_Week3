@@ -1,4 +1,4 @@
-# Week3 Lab - Exploratory Data Analysis with SQL
+# Week 3 Lab - Exploratory Data Analysis with SQL
 Goals
 ======================
    1. Explore the Database
