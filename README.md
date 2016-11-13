@@ -12,7 +12,7 @@ Goals
 
 ## Introduction
 
-Structured Query Language (SQL for short) is the bread and butter of a working data scientist. Whether generating reports, grabbing data for a machine learning model, or implementing a data product — SQL is one of the most important skills to master during this course. In this sprint, we'll be gaining familiarity with SQL fundamentals. We'll start with basic querying, and move on to joins, aggregations, subqueries, and working with sets. 
+Structured Query Language (SQL for short) is the bread and butter of a working with data. Whether generating reports, grabbing data for a machine learning model, or implementing a data product — SQL is an important skills to master as a computer scientist, or entrepreneur. In this activity, we'll be gaining some familiarity with SQL fundamentals. We'll start with basic querying, and move on to joins, aggregations, subqueries, and working with sets. 
 
 ## Primer
 
@@ -29,7 +29,7 @@ In this repo, there's a SQL dump of the data we'll be using today. This data is 
 
 *You'll be using the interactive SQL shell from the console for most of your work. Once you have a satisfactory answer to a question, remember to copy your SQL query to a text file for safe keeping. You'll submit all your finished queries at the end of the day as a pull request. *
 
-1. If you are on your personal computer and haven't set up postgres yet, follow [these instructions](https://github.com/meet-projects/Y2YL201617_Week3/blob/master/postgres_setup.md)
+1. If you are on your personal computer and haven't set up postgres yet, follow [these instructions](https://github.com/meet-projects/Y2YL201617_Week3/blob/master/postgres_setup.md) The MEET machines should be already configured but if you run into any installation problems, please find and instructor or TA. 
 
 1. From the command line run `psql` and then this command to create the database.
 
@@ -304,7 +304,7 @@ Extra Credit (pt. 2)
 
 9. Find all the users who bought a meal before liking or sharing a meal.
 
-# Optional Extra Practice -- Advanced SQL
+# Optional Advanced SQL Extra Credit
 
 You work at a social media site. You have to write a lot of queries to get the desired data and stats from the database.
 
@@ -397,16 +397,3 @@ Extra Credit
 9. Write a query which gets each user, the number of friends and the number of messages received. Recall that the friends table is not nice and that some pairs appear twice in both orders and some do not, so it might be nice to first create a cleaned up friends table.
 
 10. Break the users into 10 cohorts based on their number of friends and get the average number of messages for each group. It might be useful to save the result of the previous query in a table.
-
-Have Fun
-========================
-
-If you've made it this far you're probably feeling like a SQL expert. So why not challenge another pair to a game of SQL horse?
-* One pair describes a value to compute via a SQL query.
-* The other pair write a query to get the value(s), but doesn't share the query.
-* The pair who asked the questions computes an answer.
-* If the answers agree, then start over, with the other pair describing a query.
-* If the answer do not agree, then find out which query is correct. Any pair whose query is incorrect get's a letter from the word "HORSE".
-* The first team to reach "H-O-R-S-E" (five wrongs) loses!
-
-If HORSE takes too long, try a game of PIG. If it doesn't last long enough, try a game of QUERYOPTIMIZER.
