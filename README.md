@@ -9,6 +9,16 @@ Goals
    6. Aggregation functions: AVG
    7. Intervals, Ranges, and sorting
    8. Subqueries
+## References
+
+* [ModeAnalytics: SQL School](http://sqlschool.modeanalytics.com/)
+* [7 Handy SQL features for Data Scientists](http://blog.yhathq.com/posts/sql-for-data-scientists.html)
+* [Postgres Docs](http://www.postgresql.org/docs/7.4/static/tutorial.html)
+* [Postgres Guide](http://postgresguide.com/)
+* [Statistics in SQL](https://github.com/tlevine/sql-statistics)
+* [A Gentle Introduction to SQL Using SQLite](https://github.com/zipfian/SQL-Tutorial)
+* [The fast-track, hands-on, no-nonsense introduction to SQL](https://github.com/dserban/WebDevCourseMaterials/tree/master/1-intro-to-sql)
+* [Intro to SQL](http://bensresearch.com/downloads/SQL.pdf)
 
 ## Introduction
 
