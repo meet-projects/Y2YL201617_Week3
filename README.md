@@ -12,7 +12,7 @@ Goals
 
 ## Introduction
 
-Structured Query Language (SQL for short) is the bread and butter of a working with data. Whether generating reports, grabbing data for a machine learning model, or implementing a data product — SQL is an important skills to master as a computer scientist, or entrepreneur. In this activity, we'll be gaining some familiarity with SQL fundamentals. We'll start with basic querying, and move on to joins, aggregations, subqueries, and working with sets. 
+Structured Query Language (SQL for short) is the bread and butter of a working with data. Whether generating reports, grabbing data for a machine learning model, or implementing a data product — SQL is an important skill to master as an engineer, scientist, or entrepreneur. In this activity, we'll be gaining some familiarity with SQL fundamentals. We'll start with basic querying, and move on to joins, aggregations, subqueries, and working with sets. 
 
 ## Primer
 
