@@ -10,11 +10,24 @@ Goals
    7. Intervals, Ranges, and sorting
    8. Subqueries
 
+## Introduction
+
+Structured Query Language (SQL for short) is the bread and butter of a working data scientist. Whether generating reports, grabbing data for a machine learning model, or implementing a data product — SQL is one of the most important skills to master during this course. In this sprint, we'll be gaining familiarity with SQL fundamentals. We'll start with basic querying, and move on to joins, aggregations, subqueries, and working with sets. 
+
+## Primer
+
+First off, read through [SQL for Data Scientists](http://bensresearch.com/downloads/SQL.pdf)  and become familiar with basic SQL commands, inner and outer joins, and basic grouping and aggregation functions.
+
+We will be using [Postgres SQL](http://www.postgresql.org/) in this exercise, a flavor of SQL that is quickly becoming _de rigueur_ in web startups and big companies alike. Postgres is fast, scales well, and comes with a bunch of useful extensions such as [PostGIS](http://postgis.net/) for working with geographical data.
+
+While Postgres adheres to the ANSI 92 SQL standard, there are a few extra functions implemented that we'll be using in later sprints. Check out the the Postgres [tutorial](http://www.postgresqltutorial.com/) for an overview of the provided functions. This will give you a basic overview of the syntax and will be your reference going forward.
 
 Loading the database
 ======================
 
-In this repo, there's a SQL dump of the data we'll be using today. This data is typical of the type of data you might encounter in industry. It is [normalized](https://en.wikipedia.org/wiki/Database_normalization), which is a way of minimizing the disk space required to store the data, but which can sometimes require more effort to get data, since most queries will require information stored across multiple tables. As an example, the events table has ids for both users and meals, but in order to get the price of the meal, we have to look up that meal in the id table. This allows us to use _only_ the id to refer to the meal _anywhere_ it may appear, but does mean that to get meal details we almost always have to join. Data Analysts, Scientists, Financial Experts and Researchers write a lot of SQL in order to get data from various tables into a single location where they can use it.*
+In this repo, there's a SQL dump of the data we'll be using today. This data is typical of the type of data you might encounter in industry. It is [normalized](https://en.wikipedia.org/wiki/Database_normalization), which is a way of minimizing the disk space required to store the data, but which can sometimes require more effort to get data, since most queries will require information stored across multiple tables. As an example, the events table has ids for both users and meals, but in order to get the price of the meal, we have to look up that meal in the id table. This allows us to use _only_ the id to refer to the meal _anywhere_ it may appear, but does mean that to get meal details we almost always have to join. Data Analysts, Scientists, Financial Experts and Researchers write a lot of SQL in order to get data from various tables into a single location where they can use it.
+
+*You'll be using the interactive SQL shell from the console for most of your work. Once you have a satisfactory answer to a question, remember to copy your SQL query to a text file for safe keeping. You'll submit all your finished queries at the end of the day as a pull request. *
 
 1. If you are on your personal computer and haven't set up postgres yet, follow [these instructions](https://github.com/meet-projects/Y2YL201617_Week3/blob/master/postgres_setup.md)
 
