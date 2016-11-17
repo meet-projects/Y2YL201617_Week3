@@ -80,12 +80,32 @@ First, we will want to see what the available tables are. Remember, now that we 
 Select statements
 ===================
 
-1. To get an understanding of the data, run a [SELECT](http://www.postgresqltutorial.com/postgresql-select/) statement on each table. Keep all the columns and limit the number of rows to 10.
+To get an understanding of the data, run a [SELECT](http://www.w3schools.com/sql/sql_select.asp) statement on each table. Keep all the columns and limit the number of rows to 10.
         ```
         SELECT *
         FROM EVENTS
         LIMIT 10;
         ```
+
+Adding an item to your database
+===================
+Refer to the tutorial on [INSERT INTO](http://www.w3schools.com/sql/sql_insert.asp) to create a new event with the following information:
+```
+userid = 99
+campaign_id='FB'
+meal_id=100
+event = 'like'
+
+```
+
+Updating an item
+===================
+Now use [UPDATE](http://www.w3schools.com/sql/sql_update.asp) to change the event from 'like' to 'bought'
+
+Deleting an item
+===================
+Finally use the [DELETE](http://www.w3schools.com/sql/sql_delete.asp) command to remove the database entry you created.
+
 
 2. Write a `SELECT` statement that would get just the userids.
 
