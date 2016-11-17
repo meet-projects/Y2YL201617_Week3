@@ -51,15 +51,15 @@ In this repo, there's a SQL dump of the data we'll be using today. This data is 
     CREATE DATABASE readychef;
     \q
     ```
+   The `psql` command opens a Postgres SQL Terminal similar to the python shell where you can execute commands on your database. To exit this shell and return to the regular terminal just type `\q` and press Enter.
 
 1. Navigate to where you cloned this very repository and run the following commands to import the database:
 
     ```
-    cd data
     psql readychef < readychef.sql
     ```
 
-    You should see a bunch of SQL commands flow through the terminal. 
+    You should see a bunch of SQL commands flow through the terminal. This is loading the readychef.sql file into the empty database you created in the previous step.
 
 1. To enter the interactive Postgres prompt, now enter the following to be connected or your database.
 
@@ -76,7 +76,7 @@ First, we will want to see what the available tables are. Remember, now that we 
 
 1. What are the tables in our database? Run `\d` to find out.
 
-2. What columns does each table have? Run `\d tablename` to find out.
+2. What columns does each table have? Run `\d tablename` (where 'tablename' is replace with the table you want to explore) to find out.
 
 
 Select statements
