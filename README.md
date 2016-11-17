@@ -28,13 +28,7 @@ Structured Query Language (SQL for short) is the bread and butter of a working w
 
 Today, you will be working with a dataset called ReadyChef, a social media application for food lovers. 
 
-## Primer
 
-First off, read through [SQL for Data Scientists](http://bensresearch.com/downloads/SQL.pdf)  and become familiar with basic SQL commands, inner and outer joins, and basic grouping and aggregation functions.
-
-We will be using [Postgres SQL](http://www.postgresql.org/) in this exercise, a flavor of SQL that is quickly becoming _de rigueur_ in web startups and big companies alike. Postgres is fast, scales well, and comes with a bunch of useful extensions such as [PostGIS](http://postgis.net/) for working with geographical data.
-
-While Postgres adheres to the ANSI 92 SQL standard, there are a few extra functions implemented that we'll be using in later sprints. Check out the the Postgres [tutorial](http://www.postgresqltutorial.com/) for an overview of the provided functions. This will give you a basic overview of the syntax and will be your reference going forward.
 
 Loading the database
 ======================
