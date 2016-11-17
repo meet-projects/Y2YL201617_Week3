@@ -93,10 +93,7 @@ Adding an item to your database
 ===================
 Refer to the tutorial on [INSERT INTO](http://www.w3schools.com/sql/sql_insert.asp) to create a new event with the following information:
 ```
-userid = 99
-campaign_id='FB'
-meal_id=100
-event = 'like'
+FILL THIS IN!
 
 ```
 
