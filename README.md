@@ -91,11 +91,8 @@ To get an understanding of the data, run a [SELECT](http://www.w3schools.com/sql
 
 Adding an item to your database
 ===================
-Refer to the tutorial on [INSERT INTO](http://www.w3schools.com/sql/sql_insert.asp) to create a new event with the following information:
-```
-FILL THIS IN!
+Refer to the tutorial on [INSERT INTO](http://www.w3schools.com/sql/sql_insert.asp) to create a new meal in the meals table. You need to specify the `type` and the `price` and set the `date` to `2016-11-17`
 
-```
 
 Updating an item
 ===================
