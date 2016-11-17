@@ -9,6 +9,8 @@ Goals
    6. Aggregation functions: AVG
    7. Intervals, Ranges, and sorting
    8. Subqueries
+   
+   
 ## References
 
 * [ModeAnalytics: SQL School](http://sqlschool.modeanalytics.com/)
